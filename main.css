@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#toggleButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 17%;
+}
